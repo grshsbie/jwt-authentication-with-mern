@@ -27,8 +27,6 @@ mongoose
     console.log("Unable to connect to server and/or MongoDB", error);
   });
 
-// Routes
-
 // POST Register
 app.post("/register", async (req, res) => {
   try {
